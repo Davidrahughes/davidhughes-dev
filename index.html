@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Portfolio</title>
+    <script defer src="./script.js"></script>
+    <script src="./js/anime-master/lib/anime.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sen:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Cutive&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/d5dc0c4539.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <main><!-- Main starts here -->
+        <header class="header finisher-header"> <!-- Header starts here -->
+            <ul class="header-container">
+                <li><a class="nav" href="#home">HOME</a></li>
+                <li><a class="nav" href="#about-me">ABOUT</a></li>
+                <li><a class="nav" href="#skills">SKILLS</a></li>
+                <li><a class="nav" href="#projects">PROJECTS</a></li>
+                <li><a class="nav" href="#contact">CONTACT</a></li>
+            </ul>
+        </header> <!-- Header ends here -->
+        <section id="home">
+            <div class="wrapper">
+                <div class="hero-container">
+                    <h1>Dave Hughes</h1>
+                    <h3>Front End Web Developer</h3>
+                    <a href="#contact" class="contact-button">Contact Me</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="about-me">
+            <div class="wrapper">
+                <div class="about-container">
+                    <div class="headshot-container">
+                        <img id="headshot" src="./portfolio-assets/headshot.jpeg" alt="">
+                    </div>
+                    <div class="about-text">
+                        <h2>About Me</h2>
+                        <p>Greetings! Thanks for taking the time to visit. I'm Dave Hughes, a Front End Web Developer from Juno College. Web development is a rapidly-changing field, with new technologies, tools, and best practices being introduced all the time. My passion for learning new skills helps me stay up-to-date with these changes and continuously improve my knowledge and expertise.</p>
+                            
+                        <p class="paragraph">The future of tech is a world I want to be a part of. Even in my free time I am enveloped in playing the latest single-player adventure game on my Playstation or learning about Dark Matter and Space Travel from my Personal Astrophysicist Neil deGrasse Tyson.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills">
+            <div class="wrapper">
+                <h2>Skills</h2>
+                <ul class="skill-list">
+                    <li>
+                        <i id="skill-img" class="devicon-html5-plain-wordmark"></i>
+                    </li>
+                    <li>
+                        <i id="skill-img" class="devicon-css3-plain-wordmark"></i>
+                    </li>
+                    <li>
+                        <i id="skill-img" class="devicon-sass-original"></i>
+                    </li>
+                    <li>
+                        <i id="skill-img" class="devicon-javascript-plain"></i>
+                    </li>
+                    <li>
+                        <i id="skill-img" class="devicon-react-original-wordmark"></i>
+                    </li>
+                    <li>
+                        <i id="skill-img" class="devicon-github-original-wordmark"></i>
+                    </li>
+                    <li>
+                        <i id="skill-img" class="devicon-firebase-plain-wordmark"></i>
+                    </li>
+                    <li>
+                        <i id="skill-img" class="devicon-vscode-plain-wordmark"></i>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="projects">
+            <div class="wrapper">
+                <h2>Projects</h2>
+                <ul class="project-container">
+                    <li class="project pokemon">
+                        <div class="project-photo">
+                            <img id="pokemon" src="./portfolio-assets/project-pokemon.png" alt="">
+                        </div>
+                        <div class="project-description">
+                            <h4>Ugly Pokemon</h4>
+                            <h5>HTML, CSS, JS, API</h5>
+                            <p>Ugly Pokemon is a PokeApi based website. Made with Vanilla JS, it accepts user input to pull a Pokemon's statistics and picture. It also displays decidedely 'ugly' Pokemon at the click of a button. </p>
+                            <ul class="project-button">
+                                <li><button>View Live</button></li>
+                                <li><button>View Code</button></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="project shutter">
+                        <div class="project-photo">
+                            <img id="shutter" src="./portfolio-assets/project-shutter.png" alt="">
+                        </div>
+                        <div class="project-description">
+                            <h4>Shutter</h4>
+                            <h5>HTML, CSS</h5>
+                            <p>Shutter was my first fully responsive website that used HTML & CSS. Translating a mock-up into code while focusing on accesibility, function and responsive design.</p>
+                            <ul class="project-button">
+                                <li><button><a href="https://reliable-cheesecake-097628.netlify.app/">View Live</a></button></li>
+                                <li><button><a href="https://github.com/Davidrahughes/shutter">View Code</a></button></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="project delicious">
+                        <div class="project-photo">
+                            <img id="shutter" src="./portfolio-assets/project-delicious.png" alt="">
+                        </div>
+                        <div class="project-description">
+                            <h4>Delicious</h4>
+                            <h5>HTML, SCSS</h5>
+                            <p>Delicious is a multipage, fully responsive website that utilizes SCSS.</p>
+                            <ul class="project-button">
+                                <li><button><a href="https://davesproject.netlify.app/">View Live</a></button></li>
+                                <li><button><a href="https://github.com/Davidrahughes/project1-delicious">View Code</a></button></li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="wrapper">
+                <div class="contact-container">
+                    <div class="contact text">
+                        <h2>Contact Me</h2>
+                        <ul class="contact-icon">
+                            <li><a class="contact-anchor" href="https://www.linkedin.com/in/dave-hughes-26b9aa3a/"><i class="fa-brands fa-linkedin fa-2xl"></i></a></li>
+                            <li><a class="contact-anchor" href="https://github.com/Davidrahughes"><i class="fa-brands fa-github fa-2xl"></i></a></li>
+                            <li><a class="contact-anchor" href="https://twitter.com/Davidrahughes"><i class="fa-brands fa-twitter fa-2xl"></i></a></li>
+                            <li><a class="contact-anchor" href="mailto:hughesd11@gmail.com"><i class="fa-solid fa-envelope fa-2xl"></i></a></li>
+                        </ul>
+                        <p>Drop me a line if you'd love to chat Code, debate Dark Matter or why Marvel is better than DC.</p>
+                    </div>
+                    <div class="contact form">  
+                        <form action="https://formspree.io/f/mnqreydj" method="post">
+                            <label id="name-label" for="user-name">Name*</label>
+                            <input id="user-name" type="text" name="name" placeholder="Your Name" required="">
+                            <label id="email-label" for="user-email">Email*</label>
+                            <input id="user-email" type="email" name="_replyto" placeholder="Your Email" required="">
+                            <label id="message-label" for="user-message">Message*</label>
+                            <textarea id="user-message" cols="30" rows="5" placeholder="Hey Dave, let's grab a coffe and chat about web dev, Marvel and Star Wars"></textarea>
+                            <button class="contact-button" aria-label="submit" type="submit">Submit</button>
+                            </ul>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main><!-- Main ends here -->
+
+    <footer><!-- Footer starts here -->
+
+    </footer><!-- Footer ends here -->
+    
+</body>
+</html>

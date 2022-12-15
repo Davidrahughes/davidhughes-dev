@@ -1,0 +1,311 @@
+html{line-height:1.15;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,aside,footer,header,nav,section{display:block}h1{font-size:2em;margin:.67em 0}figcaption,figure,main{display:block}figure{margin:1em 40px}hr{box-sizing:content-box;height:0;overflow:visible}pre{font-family:monospace,monospace;font-size:1em}a{background-color:transparent;-webkit-text-decoration-skip:objects}abbr[title]{border-bottom:none;text-decoration:underline;text-decoration:underline dotted}b,strong{font-weight:inherit}b,strong{font-weight:bolder}code,kbd,samp{font-family:monospace,monospace;font-size:1em}dfn{font-style:italic}mark{background-color:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}audio,video{display:inline-block}audio:not([controls]){display:none;height:0}img{border-style:none}svg:not(:root){overflow:hidden}button,input,optgroup,select,textarea{font-family:sans-serif;font-size:100%;line-height:1.15;margin:0}button,input{overflow:visible}button,select{text-transform:none}button,html [type=button],[type=reset],[type=submit]{-webkit-appearance:button}button::-moz-focus-inner,[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner{border-style:none;padding:0}button:-moz-focusring,[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring{outline:1px dotted ButtonText}fieldset{padding:.35em .75em .625em}legend{box-sizing:border-box;color:inherit;display:table;max-width:100%;padding:0;white-space:normal}progress{display:inline-block;vertical-align:baseline}textarea{overflow:auto}[type=checkbox],[type=radio]{box-sizing:border-box;padding:0}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}[type=search]::-webkit-search-cancel-button,[type=search]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}details,menu{display:block}summary{display:list-item}canvas{display:inline-block}template{display:none}[hidden]{display:none}
+
+
+html { box-sizing: border-box;}
+
+*, *:before, *:after {box-sizing: inherit}
+
+.sr-only { position: absolute; width: 1px; height: 1px; margin: -1px; border: 0; padding: 0; white-space: nowrap; clip-path: inset(100%); clip: rect(0 0 0 0); overflow: hidden;}
+
+/* Base Styles */
+html {
+    font-family: 'Sen', sans-serif;
+    font-size: 125%;
+    color: #000000;
+    line-height: 1.15;
+}
+
+body {
+    background-color: #FCFCFC;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+h1 {
+    font-size: 80px;
+    color: #B1A7A6;
+    padding: 0;
+    margin: 15px 0;
+}
+
+h2  {
+    font-size: 50px;
+    color: #B1A7A6;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+h3  {
+    font-size: 24px;
+    color: #BA181B;
+    padding: 15px 0;
+}
+
+h4 {
+    font-size: 30px;
+    color: #B1A7A6;
+    text-align: left;
+    margin-bottom: 25px;
+}
+
+h5 {
+    font-size: 18px;
+    color: #D3D3D3;
+    text-align: left;
+    margin-bottom: 25px;
+}
+
+p {
+    font-size: 15px;
+    color: #000;
+    margin: 0 auto;
+}
+
+.paragraph {
+    margin-top: 30px;
+}
+s
+button {
+    font-size: 18px;
+    color: #BA181B;
+    text-align: center;
+    /* margin-top: 25px; */
+    padding: 15px 30px;
+    width: 200px;
+}
+
+.contact-button {
+    text-align: center;
+    background-color: #BA181B;
+    color: #FFFFFF;
+    padding: 15px 30px;
+    width: 200px;
+}
+
+.contact-button:hover, :focus {
+    background-color: #FFFFFF;
+    color: #BA181B;
+}
+
+.contact-anchor {
+    color: #BA181B;
+}
+
+.contact-anchor:hover, :focus {
+    color: #FFFFFF;
+}
+
+.nav:hover, :focus {
+    color: #BA181B;
+}
+
+
+input {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+
+textarea {
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    display: inline-block;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    color: #FFFFFF;
+}
+section {
+    min-height: 50vh;
+    padding: 50px;
+    margin: 0 auto;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+    background-color: #000200;
+}
+
+#home {
+    background-image: url(./portfolio-assets/splash-background4.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 0;
+}
+
+.hero-container {
+    padding: 250px 0;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+}
+
+#about-me {
+    background-color: #A4161A;
+}
+
+.about-container {
+    display: flex;
+    align-items: center;
+} 
+
+.headshot-container {
+    display: flex;
+    flex-wrap: wrap;
+    padding-right: 50px;
+}
+
+.about-text {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: hidden;
+}
+
+.about-text p {
+    text-align: left;
+    font-size: 20px;
+}
+
+
+#skills {
+    background-color: #0B090A;
+}
+
+.skill-list {
+    display: flex;
+    justify-items: center;
+}
+
+.skill-list li {
+    width: 25%;
+}
+
+#skill-img {
+    width: 150px;
+    height: 150px;
+    font-size: 100px;
+    color: #D3D3D3;
+}
+
+#skill-img:hover, :focus {
+    color: #BA181B;
+}
+
+#projects {
+    background-color: #A4161A;
+}
+
+.project-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.project-container li {
+    padding-bottom: 200px;
+}
+
+.project {
+    display: flex;
+    align-items:center;
+    position:relative;
+    left: -2000px;
+    overflow-x: hidden;
+}
+
+.project-button {
+    display: flex;
+}
+
+.project-button li {
+    padding: 10px;
+}
+
+.project-photo {
+    padding-right: 20px;
+}
+
+.project-photo img {
+    max-width: 400px;
+    min-width: 150px;
+}
+
+.project-description p {
+    max-width: 500px;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.project-button button {
+    background-color: #000;
+    color: #FFFFFF;
+}
+
+#contact {
+background-color: #000;
+}
+
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+    color: #BA181B;
+    max-width: 750px;
+} 
+
+.contact button {
+    text-align: center;
+}
+.contact p {
+    color: #BA181B;
+    font-size: 20px;
+}
+
+.contact-icon {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+
+.contact-icon li {
+    padding: 25px
+}
+
+.contact-icon p{
+    font-size: 15px;
+}
+
+form {
+    text-align: center;
+}
+
+.wrapper {
+    max-width: 1700px;
+    width: 90%;
+    margin: 0 auto;
+    overflow-x: hidden;
+}
+
